@@ -1,0 +1,39 @@
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:c="http://java.sun.com/jsp/jstl/core"
+	xmlns:p="http://primefaces.org/ui">
+
+<ui:composition template="/api-doc/template-rest-doc.xhtml">
+
+	<ui:define name="miga">
+		<div class="row">
+			<div class="col-lg-12">
+				<ol class="breadcrumb">
+					<li class="active">Índice</li>
+				</ol>
+			</div>
+		</div>
+	</ui:define>
+
+	<ui:define name="contenido">
+		<div class="row">
+			<div class="col-lg-12">
+				<p>El api REST se divide en N secciones:</p>
+				<ul>
+					<li><b><a href="admin-services.xhtml">API
+								Administración</a>.</b> Destinada a administradores de beebusiness.</li>
+
+				</ul>
+			</div>
+		</div>
+		<!-- /.row -->
+
+	</ui:define>
+</ui:composition>
+</html>
