@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archetype-descriptor xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0 http://maven.apache.org/xsd/archetype-descriptor-1.0.0.xsd" name="esqueleto"
+    xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <fileSets>
+    <fileSet filtered="true" packaged="true" encoding="UTF-8">
+      <directory>src/main/java</directory>
+      <includes>
+        <include>**/*.java</include>
+      </includes>
+      <excludes>
+        <exclude>org/springframework/faces/webflow/FlowFacesContext.java</exclude>
+        <exclude>org/springframework/faces/webflow/FlowViewStateManager.java</exclude>
+      </excludes>
+    </fileSet>
+    <fileSet filtered="true" encoding="UTF-8">
+      <directory>src/main/java</directory>
+      <includes>
+        <include>org/springframework/faces/webflow/FlowFacesContext.java</include>
+        <include>org/springframework/faces/webflow/FlowViewStateManager.java</include>
+      </includes>
+    </fileSet>
+    <fileSet filtered="true" encoding="UTF-8">
+      <directory>src/main/webapp</directory>
+      <includes>
+        <include>**/*.xhtml</include>
+        <include>**/*.xml</include>
+        <include>**/*.html</include>
+        <include>**/*.txt</include>
+      </includes>
+    </fileSet>
+    <fileSet filtered="true" encoding="UTF-8">
+      <directory>src/main/resources</directory>
+      <includes>
+        <include>**/*.xml</include>
+        <include>**/*.properties</include>
+      </includes>
+    </fileSet>
+    <fileSet encoding="UTF-8">
+      <directory>src/main/webapp</directory>
+      <includes>
+        <include>**/*.1/LICENSE</include>
+        <include>**/*.woff</include>
+        <include>**/*.scss</include>
+        <include>**/*.js</include>
+        <include>**/*.ico</include>
+        <include>**/*.eot</include>
+        <include>**/*.md</include>
+        <include>**/*.json</include>
+        <include>**/*.otf</include>
+        <include>**/*.map</include>
+        <include>**/*.yml</include>
+        <include>**/*.less</include>
+        <include>**/*.svg</include>
+        <include>**/*.csslintrc</include>
+        <include>**/*.ttf</include>
+        <include>**/*.jade</include>
+        <include>**/*.editorconfig</include>
+        <include>**/*.sh</include>
+        <include>**/*.jshintrc</include>
+        <include>**/*.jpg</include>
+        <include>**/*.gitattributes</include>
+        <include>**/*.png</include>
+        <include>**/*.py</include>
+        <include>**/*.bat</include>
+        <include>**/*.gitignore</include>
+        <include>**/*.1/CNAME</include>
+        <include>**/*.css</include>
+        <include>**/*.1/docs/LICENSE</include>
+      </includes>
+    </fileSet>
+  </fileSets>
+</archetype-descriptor>
